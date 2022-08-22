@@ -1,0 +1,51 @@
+/todos/?status=TO%20DO
+
+###
+/todos/?priority=HIGH
+
+###
+/todos/?priority=HIGH&status=IN%20PROGRESS
+
+###
+/todos/?search_q=Play
+
+###
+//GET a specific todo based on the todo ID
+{
+  id: 2,
+  todo: "Learn JavaScript",
+  priority: "HIGH",
+  status: "DONE"
+}
+
+###
+//Create a todo in the todo table
+{
+  "id": 10,
+  "todo": "Finalize event theme",
+  "priority": "LOW",
+  "status": "TO DO"
+}
+
+###
+//Updates the details of a specific todo based on the todo ID
+ 
+//Scenario 1
+{
+    "status": "DONE"
+}
+
+###
+//Scenario 2
+{
+    "priority": "HIGH"
+}
+
+###
+//Scenario 3
+{
+    "todo": "Some task"
+}
+
+
+
